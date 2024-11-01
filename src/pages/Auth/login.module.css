@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-image {
+  background-image: url('assets/images/login_page_bg.png');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  overflow-y: auto;
+}

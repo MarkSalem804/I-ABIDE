@@ -1,0 +1,35 @@
+.auth-container {
+  width: 30vw;
+  min-width: 230px;
+  overflow: hidden;
+  padding: 2em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-text {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.welcome-text span {
+  white-space: nowrap;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+@media (min-width: 1080px) {
+  .btn-group {
+    justify-content: space-between;
+  }
+}
