@@ -111,7 +111,7 @@ const Authentication = (props) => {
               ? 'Already have an account? Login'
               : "Don't have an account? Register"}
           </Anchor>
-          <Button type="submit" radius="xl">
+          <Button type="submit" radius="xl" className={styles['btn']}>
             {upperFirst(type)}
           </Button>
         </Group>
