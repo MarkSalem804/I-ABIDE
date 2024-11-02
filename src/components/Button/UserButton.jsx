@@ -17,7 +17,7 @@ export function UserButton() {
             Harriette Spoonlicker
           </Text>
 
-          <Text color="dimmed" size="md">
+          <Text color="dimmed" size="xs">
             hspoonlicker@outlook.com
           </Text>
         </div>

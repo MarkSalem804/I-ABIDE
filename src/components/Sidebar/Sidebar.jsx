@@ -75,10 +75,10 @@ const SideBar = () => {
 
       <TextInput
         placeholder="Search"
-        size="xs"
+        size="sm"
         leftSection={
           <IconSearch
-            style={{ width: rem(12), height: rem(12) }}
+            style={{ width: rem(20), height: rem(20) }}
             stroke={1.5}
           />
         }

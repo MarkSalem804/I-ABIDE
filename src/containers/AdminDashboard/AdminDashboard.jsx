@@ -6,7 +6,7 @@ import styles from './adminDashboard.module.css';
 
 function AdminDashboard() {
   return (
-    <React.Fragment className={styles['dashboard-container']}>
+    <div className={styles['dashboard-container']}>
       <header className={styles['header']}>
         <HeaderMenu />
       </header>
@@ -14,9 +14,10 @@ function AdminDashboard() {
         <SideBar />
       </aside>
       <main className={styles['main']}>
-        <Outlet />
+        {/* <Outlet /> */}
+        Main (Burahin mo nalang red border)
       </main>
-    </React.Fragment>
+    </div>
   );
 }
 

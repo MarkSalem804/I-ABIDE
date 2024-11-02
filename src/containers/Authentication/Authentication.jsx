@@ -40,12 +40,7 @@ const Authentication = (props) => {
   };
 
   return (
-    <Paper
-      radius={0}
-      padding="xl"
-      {...props}
-      className={styles['auth-container']}
-    >
+    <Paper radius={0} padding="xl" {...props} className={props.className}>
       <Text size="lg" weight={500} className={styles['welcome-text']}>
         Welcome to <span>I-ABIDE,</span> <span>{type} with</span>
       </Text>
