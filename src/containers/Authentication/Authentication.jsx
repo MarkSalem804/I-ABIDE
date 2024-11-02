@@ -45,7 +45,7 @@ const Authentication = (props) => {
         Welcome to <span>I-ABIDE,</span> <span>{type} with</span>
       </Text>
 
-      <Divider my="lg" />
+      <Divider my="xl" />
 
       <form onSubmit={handleSubmit}>
         <Stack>
