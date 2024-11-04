@@ -40,17 +40,12 @@ const Authentication = (props) => {
   };
 
   return (
-    <Paper
-      radius={0}
-      padding="xl"
-      {...props}
-      className={styles['auth-container']}
-    >
+    <Paper radius={0} padding="xl" {...props} className={props.className}>
       <Text size="lg" weight={500} className={styles['welcome-text']}>
         Welcome to <span>I-ABIDE,</span> <span>{type} with</span>
       </Text>
 
-      <Divider my="lg" />
+      <Divider my="xl" />
 
       <form onSubmit={handleSubmit}>
         <Stack>
@@ -116,7 +111,7 @@ const Authentication = (props) => {
               ? 'Already have an account? Login'
               : "Don't have an account? Register"}
           </Anchor>
-          <Button type="submit" radius="xl">
+          <Button type="submit" radius="xl" className={styles['btn']}>
             {upperFirst(type)}
           </Button>
         </Group>
